@@ -1,0 +1,47 @@
+.header{
+      font-family: 'Fira Code', monospace;
+      align-items: center;
+      padding: 32px 0px 8px 0px;
+}
+.logoName h1{
+    color:  #FFF;
+    font-family: 'Fira Code', monospace;
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.logo{
+    gap: 5px;
+} 
+.navMenu{
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 0;
+}
+.hastag{
+    color: #C778DD;
+}
+.navMenu li{
+    list-style: none;
+}
+.navMenu li a{
+    color: #FFF;
+    font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+cursor: pointer;
+text-decoration: none;
+}
+
+@media only screen and (max-width: 768px){
+    .menu{
+        display: none !important;
+    }
+    .hamburgerMenu{
+        display: block !important;
+    }
+}
