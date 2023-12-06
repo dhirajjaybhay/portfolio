@@ -14,11 +14,17 @@ export default function Home() {
                             <p>Development is my passion, my purpose. I thrive on learning and pushing boundaries in IT. Excellence is my goal.</p>
                         </div>
                         <div className='contctMeBtn'>
-                           <button><a href="/">Contact Me !!</a></button>
+                            <button><a href="/">Contact Me !!</a></button>
 
                         </div>
                     </div>
-                    <div className='col-lg-6 col-md-6 col-sm-12'>
+                    <div className='col-lg-6 col-md-6 col-sm-12 col-12 d-flex justify-content-center profile-img'>
+                          {/* <img className='imgDj' src="" alt="555" /> */}
+                          <div className='bannerImg'>
+
+                            <h1>cnjjndjndnj</h1>
+                          </div>
+                         
                     </div>
 
                 </div>

@@ -1,0 +1,22 @@
+.skillComponent{
+    padding-top: 60px !important;
+    font-family: 'Fira Code', monospace !important;
+}
+.row{
+    margin: 0;
+}
+.hastag{
+    color: #C778DD;
+}
+.line{
+    align-items: center;
+    padding-left: 15px;
+    /* text-align: center; */
+   /* padding-top: px;     */
+}
+.title-skill h2{
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
