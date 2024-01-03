@@ -1,22 +1,64 @@
-.skillComponent{
+.skillComponent {
     padding-top: 60px !important;
     font-family: 'Fira Code', monospace !important;
 }
-.row{
+
+.row {
     margin: 0;
 }
-.hastag{
+
+.hastag {
     color: #C778DD;
 }
-.line{
+
+.line {
     align-items: center;
     padding-left: 15px;
-    /* text-align: center; */
-   /* padding-top: px;     */
 }
-.title-skill h2{
-font-size: 32px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+
+.svg-design img {
+    width: 100%;
+}
+
+.title-skill h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.skills-list h2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px 5px;
+    margin-bottom: 0px;
+
+}
+
+.language {
+    border: 2px solid #ABB2BF;
+}
+
+.container-3,
+.container-2 {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 576px) {
+    .skills-list {
+        gap: 20px;
+        padding-top: 25px;
+
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .skills-list {
+        padding-top: 25px;
+
+    }
 }

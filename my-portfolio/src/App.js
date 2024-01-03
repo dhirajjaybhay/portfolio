@@ -6,8 +6,8 @@ import Skill from './components/skill/Skill';
 function App() {
   return (
     <div className='container'>
-    <section><Home /></section>
-    <section><Skill /></section>
+    <section className='Home'><Home /></section>
+    <section className='Skills'><Skill /></section>
       
     </div>
   );
